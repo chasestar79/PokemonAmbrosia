@@ -146,7 +146,7 @@ PokemonCries::
 	mon_cry CRY_METAPOD,    -70,  150 ; RALTS
 	mon_cry CRY_METAPOD,    -40,  200 ; KIRLIA
 	mon_cry CRY_METAPOD,     50,  200 ; GARDEVOIR
-	mon_cry CRY_METAPOD,    -255,  150 ; GALADE
+	mon_cry CRY_METAPOD,    -255,  150 ; GALLADE
 	mon_cry CRY_REGIGIGAS,    32,  368 ; AERODACTYL
 	mon_cry CRY_GRIMER,       85,  129 ; SNORLAX
 	mon_cry CRY_RAICHU,      128,  192 ; ARTICUNO
