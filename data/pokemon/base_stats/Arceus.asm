@@ -1,6 +1,6 @@
 	db ARCEUS ; 253
 
-	db 120, 120, 120, 120, 120, 120
+	db 130, 130, 130, 130, 130, 130
 	;   hp  atk  def  spd  sat  sdf
 
 	db UBER, UBER ; type
