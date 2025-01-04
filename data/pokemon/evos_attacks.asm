@@ -3696,8 +3696,8 @@ SuicuneEvosAttacks:
 	db 1, PSYCHO_BOOST
 	db 1, SERENITY
 	db 1, AFTER_IMAGE
-	db 1, BITE
-	db 1, LEER
+	db 2, BITE
+	db 4, LEER
 	db 11, BUBBLEBEAM
 	db 21, RAIN_DANCE
 	db 31, GUST

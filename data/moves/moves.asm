@@ -244,7 +244,7 @@ Moves: ; 41afb
 	move SHELL_SMASH,  EFFECT_SHELL_SMASH,        0, WATER,          STATUS,   100, 10,   0
 	move IRON_HEAD,    EFFECT_FLINCH_HIT,         80, STEEL,         PHYSICAL, 100, 15,  30
 	move METAL_CLAW,   EFFECT_ATTACK_UP_HIT,      50, STEEL,         PHYSICAL,  95, 35,  10
-	move METEOR_MASH,  EFFECT_ATTACK_UP_HIT,     120, STEEL,         PHYSICAL,  85, 10,  20
+	move METEOR_MASH,  EFFECT_ATTACK_UP_HIT,     120, STEEL,         PHYSICAL, 100, 10, 100
 	move MORNING_SUN,  EFFECT_MORNING_SUN,         0, NORMAL,        STATUS,   100, 10,   0
 	move SYNTHESIS,    EFFECT_SYNTHESIS,           0, GRASS,         STATUS,   100, 10,   0
 	move MOONLIGHT,    EFFECT_MOONLIGHT,           0, FAIRY,         STATUS,   100, 10,   0
