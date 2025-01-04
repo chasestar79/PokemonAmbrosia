@@ -23,7 +23,6 @@ BulbasaurEvosAttacks:
 	db EVOLVE_LEVEL, 16, IVYSAUR
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
 	db 17, SLUDGE
@@ -41,7 +40,6 @@ IvysaurEvosAttacks:
 	db EVOLVE_LEVEL, 32, VENUSAUR
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
 	db 16, SLUDGE
@@ -58,7 +56,6 @@ IvysaurEvosAttacks:
 VenusaurEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
 	db 7, LEECH_SEED
 	db 10, VINE_WHIP
 	db 16, SLUDGE
@@ -76,7 +73,6 @@ CharmanderEvosAttacks:
 	db EVOLVE_LEVEL, 16, CHARMELEON
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, GROWL
 	db 7, EMBER
 	db 13, DRAGON_RAGE
 	db 17, FLAME_WHEEL
@@ -89,7 +85,6 @@ CharmeleonEvosAttacks:
 	db EVOLVE_LEVEL, 36, CHARIZARD
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, GROWL
 	db 7, EMBER
 	db 13, SMOKESCREEN
 	db 16, FLAME_WHEEL
@@ -102,7 +97,6 @@ CharmeleonEvosAttacks:
 CharizardEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
-	db 1, GROWL
 	db 1, DRAGON_RAGE
 	db 7, EMBER
 	db 13, SMOKESCREEN
@@ -121,7 +115,6 @@ SquirtleEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
 	db 7, BUBBLE
 	db 10, DEFENSE_CURL
 	db 12, WATER_GUN
@@ -139,7 +132,6 @@ WartortleEvosAttacks:
 	db EVOLVE_LEVEL, 36, BLASTOISE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
 	db 7, BUBBLE
 	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
@@ -156,7 +148,6 @@ WartortleEvosAttacks:
 BlastoiseEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
 	db 7, BUBBLE
 	db 10, DEFENSE_CURL
 	db 13, WATER_GUN
@@ -179,7 +170,6 @@ CaterpieEvosAttacks:
 MetapodEvosAttacks:
 	db EVOLVE_LEVEL, 10, BUTTERFREE
 	db 0 ; no more evolutions
-	db 1, HARDEN
 	db 1, TACKLE
 	db 7, HARDEN
 	db 0 ; no more level-up moves
@@ -254,7 +244,6 @@ StarlyEvosAttacks:
 	db EVOLVE_LEVEL, 14, STARAVIA
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
 	db 1, SAND_ATTACK
 	db 5, QUICK_ATTACK
 	db 9, PECK
@@ -272,7 +261,6 @@ StaraviaEvosAttacks:
 	db EVOLVE_LEVEL, 34, STARAPTOR
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
     db 1, SAND_ATTACK
 	db 5, QUICK_ATTACK
 	db 9, PECK
@@ -289,7 +277,6 @@ StaraviaEvosAttacks:
 StaraptorEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, GROWL
 	db 1, SAND_ATTACK
 	db 5, QUICK_ATTACK
 	db 9, PECK
@@ -307,7 +294,6 @@ RattataEvosAttacks:
 	db EVOLVE_LEVEL, 20, RATICATE
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
 	db 7, QUICK_ATTACK
 	db 13, HYPER_FANG
 	db 20, FALSE_SWIPE
@@ -319,7 +305,6 @@ RattataEvosAttacks:
 RaticateEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, TACKLE
-	db 1, TAIL_WHIP
 	db 7, QUICK_ATTACK
 	db 13, HYPER_FANG
 	db 20, FALSE_SWIPE
