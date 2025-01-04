@@ -1,6 +1,6 @@
 	db METAGROSS ; 192
 
-	db  80,  135,  130,  70, 95,  90
+	db  100,  135,  150,  70, 95, 110
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, PSYCHIC_TYPE ; type

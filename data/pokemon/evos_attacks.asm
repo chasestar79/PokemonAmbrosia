@@ -78,7 +78,7 @@ CharmanderEvosAttacks:
 	db 1, SCRATCH
 	db 1, GROWL
 	db 7, EMBER
-	db 13, SMOKESCREEN
+	db 13, DRAGON_RAGE
 	db 17, FLAME_WHEEL
 	db 25, SLASH
 	db 36, FLAMETHROWER
@@ -94,7 +94,7 @@ CharmeleonEvosAttacks:
 	db 13, SMOKESCREEN
 	db 16, FLAME_WHEEL
 	db 25, SLASH
-	db 30, DRAGON_PULSE
+	db 30, DRAGON_RAGE
 	db 37, FLAMETHROWER
 	db 50, FIRE_BLAST
 	db 0 ; no more level-up moves
@@ -103,6 +103,7 @@ CharizardEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, SCRATCH
 	db 1, GROWL
+	db 1, DRAGON_RAGE
 	db 7, EMBER
 	db 13, SMOKESCREEN
 	db 20, RAGE
@@ -2215,6 +2216,7 @@ DratiniEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
+	db 1, EXTREMESPEED
 	db 8, THUNDER_WAVE
 	db 12, BUBBLEBEAM
 	db 20, BODY_SLAM
@@ -2234,6 +2236,7 @@ DragonairEvosAttacks:
 	db 1, WRAP
 	db 1, LEER
 	db 1, THUNDER_WAVE
+	db 1, EXTREMESPEED
 	db 20, BODY_SLAM
 	db 25, DRAGON_RAGE
 	db 30, DRAGON_CLAW
@@ -2249,6 +2252,7 @@ DragoniteEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, WRAP
 	db 1, LEER
+	db 1, EXTREMESPEED
 	db 1, THUNDER_WAVE
 	db 20, BODY_SLAM
 	db 25, DRAGON_RAGE
@@ -3001,7 +3005,9 @@ EspeonEvosAttacks:
 
 UmbreonEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, GROWTH
+	db 1, LICK
+	db 1, BITE
+	db 1, SUCKER_PUNCH
 	db 1, BATON_PASS
 	db 8, FOCUS_ENERGY
 	db 12, QUICK_ATTACK
@@ -3011,7 +3017,7 @@ UmbreonEvosAttacks:
 	db 28, MEAN_LOOK
 	db 32, MOONLIGHT
 	db 36, DARK_PULSE
-	db 41, CALM_MIND
+	db 41, SWORDS_DANCE
 	db 0 ; no more level-up moves
 
 MurkrowEvosAttacks:
@@ -3686,6 +3692,10 @@ EnteiEvosAttacks:
 
 SuicuneEvosAttacks:
 	db 0 ; no more evolutions
+	db 1, HOLY_ARMOUR
+	db 1, PSYCHO_BOOST
+	db 1, SERENITY
+	db 1, AFTER_IMAGE
 	db 1, BITE
 	db 1, LEER
 	db 11, BUBBLEBEAM

@@ -1,6 +1,6 @@
 	db METANG ; 191
 
-	db  60,  75,  100,  50,  55,  80
+	db  80,  115,  120,  50,  55,  80
 	;   hp  atk  def  spd  sat  sdf
 
 	db STEEL, PSYCHIC_TYPE ; type

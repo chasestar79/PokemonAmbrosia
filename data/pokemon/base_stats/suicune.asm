@@ -1,9 +1,9 @@
 	db SUICUNE ; 245
 
-	db 100,  75, 115,  85,  90, 115
+	db 100,  75, 125,  115,  125, 125
 	;   hp  atk  def  spd  sat  sdf
 
-	db WATER, WATER ; type
+	db WATER, UBER ; type
 	db 3 ; catch rate
 	db 220 ; base exp
 	db MYSTIC_WATER, MYSTIC_WATER ; items

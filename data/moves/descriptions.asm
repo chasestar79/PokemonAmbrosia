@@ -595,7 +595,7 @@ DragonClawDescription:
 
 DragonRageDescription:
 	db   "Always inflicts"
-	line "40HP damage.@"
+	line "150HP damage.@"
 
 FireSpinDescription:
 	db   "Traps foe in fire"

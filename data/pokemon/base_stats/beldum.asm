@@ -1,6 +1,6 @@
 	db BELDUM ; 190
 
-	db  40,  55,  80,  30,  35,  60
+	db  60,  85,  100,  30,  35,  70
 	;   hp  atk  def  spd  sat  sdf
 
     db STEEL, PSYCHIC_TYPE ; type
