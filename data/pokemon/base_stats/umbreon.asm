@@ -1,9 +1,9 @@
 	db UMBREON ; 197
 
-	db  95,  60, 110,  65,  65, 130
+	db  95,  120, 110,  65,  65, 130
 	;   hp  atk  def  spd  sat  sdf
 
-	db DARK, DARK ; type
+	db DARK, GHOST ; type
 	db 45 ; catch rate
 	db 197 ; base exp
 	db NO_ITEM, NO_ITEM ; items
